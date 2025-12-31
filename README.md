@@ -1,17 +1,25 @@
-# FPGA-8x1-MUX-Project
-This project demonstrates the design and implementation of multiplexers using VHDL. Starting from basic 2x1 multiplexers, the design hierarchy is extended to create 4x1 and 8x1 multiplexers. The project showcases modular design principles and hierarchical instantiation in digital systems.
+# FPGA 8x1 Multiplexer Project
 
-Key Features:
+This repository contains a VHDL implementation of a hierarchical **8x1 multiplexer**, built using basic **2x1 multiplexers**.
 
-VHDL implementation of 2x1, 4x1, and 8x1 multiplexers
+The design demonstrates:
+- Modular and hierarchical digital design in VHDL
+- Use of 2x1 multiplexer modules to construct more complex logic
+- A top-level FPGA design that connects input switches to an 8x1 mux and displays results on LEDs
 
-Hierarchical design methodology
+## Files Included
 
-Suitable for FPGA synthesis and simulation
+- `mux_2x1.vhd` — 2-to-1 multiplexer module  
+- `mux_8x1.vhd` — 8-to-1 multiplexer constructed from multiple 2x1 modules  
+- `top_module.vhd` — Top-level FPGA integration  
+- `Nexys-A7-100T-Master.xdc` — Constraint file for the Digilent Nexys A7 FPGA board  
 
-Languages/Tools:
+## Design Overview
 
-VHDL
+The 8x1 multiplexer uses **seven 2x1 mux instances** arranged in a hierarchical structure. This shows how small digital building blocks can be combined into larger functional units.
 
+## Tools
 
-This repository is ideal for learning digital logic design and VHDL module hierarchy.
+- Language: VHDL  
+- FPGA: Xilinx Vivado (any compatible version)  
+- Board: Digilent Nexys A7-100T
