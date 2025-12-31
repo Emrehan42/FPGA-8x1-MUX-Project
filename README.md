@@ -7,14 +7,11 @@ VHDL implementation of 2x1, 4x1, and 8x1 multiplexers
 
 Hierarchical design methodology
 
-Testbenches included for functional verification
-
 Suitable for FPGA synthesis and simulation
 
 Languages/Tools:
 
 VHDL
 
-ModelSim/Quartus (or any VHDL-compatible simulator)
 
 This repository is ideal for learning digital logic design and VHDL module hierarchy.
