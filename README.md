@@ -20,7 +20,7 @@ The 8x1 multiplexer uses **seven 2x1 mux instances** arranged in a hierarchical 
 
 For a detailed visual explanation of the mux hierarchy and implementation logic, see the included PDF:
 
-[View the 8x1 MUX Design Explanation (PDF)](Design_of_8x1_Mux_from_2x1_Mux)
+[View the 8x1 MUX Design Explanation (PDF)](Design_of_8x1_Mux_from_2x1_Mux.pdf)
 
 ## Tools
 
