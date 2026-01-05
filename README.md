@@ -22,6 +22,13 @@ For a detailed visual explanation of the mux hierarchy and implementation logic,
 
 [View the 8x1 MUX Design Explanation (PDF)](Design_of_8x1_Mux_from_2x1_Mux.pdf)
 
+## Hardware Test Results
+
+The hardware test results of the 8x1 multiplexer, including real FPGA board photographs, are provided in the following PDF document:
+
+[FPGA 8x1 Multiplexer – Hardware Test Results (PDF)](docs/FPGA_8x1_MUX_Test_Results.pdf)
+
+
 ## Tools
 
 - Language: VHDL  
