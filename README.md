@@ -26,7 +26,7 @@ For a detailed visual explanation of the mux hierarchy and implementation logic,
 
 The hardware test results of the 8x1 multiplexer, including real FPGA board photographs, are provided in the following PDF document:
 
-[FPGA 8x1 Multiplexer – Hardware Test Results (PDF)](FPGA_8x1_MUX_Test_Results.pdf.pdf)
+[FPGA 8x1 Multiplexer – Hardware Test Results (PDF)](FPGA_8x1_MUX_Test_Results.pdf)
 
 
 ## Tools
